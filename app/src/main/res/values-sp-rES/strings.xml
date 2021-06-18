@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Lista De Compras</string>
+
+    <string name="textNome">Nombre: </string>
+    <string name="textNomeHint"> Insira tu nombre... </string>
+    <string name="textQuantidade">Localización: </string>
+    <string name="textQuantidadeHint"> Ingrese su direccion... </string>
+    <string name="textPreco">Teléfono: </string>
+    <string name="textPrecoHint"> Ingresa tu teléfono... </string>
+    <string name="textSabor" translatable="false">Sabor: </string>
+
+    <string name="txtCategoria">Categoría</string>
+    <string name="txtNome">Nombre</string>
+    <string name="txtQuantidade">La Cantidad</string>
+    <string name="txtPreco">Precio</string>
+    <string name="txtTotal">Precio Total</string>
+
+
+
+    <string-array name="arrayCategoria">
+        <item>Categoria...</item>
+        <item>Produtos de higiene</item>
+        <item>Bebidas</item>
+        <item>Alimentos básicos</item>
+        <item>Limpeza</item>
+        <item>Padaria</item>
+        <item>Congelados</item>
+    </string-array>
+
+
+    <string name="txtAtencao">Aviso</string>
+    <string name="btnSalvar" translatable="false">Registro</string>
+    <string name="toolbartxt">Registro de pedidos </string>
+
+</resources>
