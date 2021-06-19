@@ -58,7 +58,7 @@ public class FormularioActivity extends AppCompatActivity {
             spCategoria.setSelection(idProduto);
 
             String[] arrayCategoria = getResources().getStringArray(R.array.arrayCategoria);
-            for(int i = 1; i < arrayCategoria.length ; i++){
+            for(int i = 0; i < arrayCategoria.length ; i++){
                 if(  arrayCategoria[i]  == produtos.categoria){
                     spCategoria.setSelection( i );
                 }

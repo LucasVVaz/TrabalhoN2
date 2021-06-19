@@ -81,9 +81,9 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog.Builder alerta = new AlertDialog.Builder(this);
         alerta.setIcon(android.R.drawable.ic_input_delete);
         alerta.setTitle(R.string.txtAtencao);
-        alerta.setMessage("Confirma a exclusão do pedido " + produtos.nome +"?");
-        alerta.setNeutralButton("Cancelar", null);
-        alerta.setPositiveButton("SIM", new DialogInterface.OnClickListener() {
+        alerta.setMessage("Confirma a exclusão do produto " + produtos.nome +"?");
+        alerta.setNeutralButton(R.string.txtCancelar, null);
+        alerta.setPositiveButton(R.string.txtSim, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 ProdutosDAO.excluir( produtos.id, MainActivity.this);

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lista De Compras</string>
+    <string name="app_name">Shopping list</string>
 
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label" translatable="false">First Fragment</string>
@@ -10,34 +10,33 @@
     <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
     <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
 
-    <string name="textNome">Produto: </string>
-    <string name="textNomeHint">Descrição do produto... </string>
-    <string name="textQuantidade">Quantidade: </string>
-    <string name="textQuantidadeHint">Quantidade unitária... </string>
-    <string name="textPreco">Preco: </string>
-    <string name="textPrecoHint">Digite o Preço... </string>
-    <string name="textSabor" translatable="false">Sabor: </string>
-    <string name="action_settings" translatable="false">Editar</string>
-
-    <string name="txtCategoria">Categoria</string>
-    <string name="txtNome">Nome</string>
-    <string name="txtQuantidade">Quantidade</string>
-    <string name="txtPreco">Preço</string>
-    <string name="txtTotal">Preço Total</string>
-
+    <string name="textNome">Product: </string>
+    <string name="textNomeHint">Product description... </string>
+    <string name="textQuantidade">The amount: </string>
+    <string name="textQuantidadeHint">Unit quantity... </string>
+    <string name="textPreco">Price: </string>
+    <string name="textPrecoHint">Type the price... </string>
+    <string name="textCategoria" translatable="false">Category </string>
+    <string name="action_settings" translatable="false">To edit</string>
 
     <string-array name="arrayCategoria">
-        <item>Categoria...</item>
-        <item>Produtos de higiene</item>
-        <item>Bebidas</item>
-        <item>Alimentos básicos</item>
-        <item>Limpeza</item>
-        <item>Padaria</item>
-        <item>Congelados</item>
+        <item>Category...</item>
+        <item>Hygiene products</item>
+        <item>Drinks</item>
+        <item>Staple foods</item>
+        <item>Cleaning</item>
+        <item>Bakery</item>
+        <item>Frozen</item>
+        <item>Fair</item>
     </string-array>
 
-    <string name="txtAtencao">Atenção</string>
+    <string name="txtAtencao">Heads up</string>
+    <string name="txtMensagem">Confirm product deletion</string>
     <string name="btnSalvar" translatable="false">Ok</string>
-    <string name="toolbartxt">Cadastro de Pedidos </string>
+    <string name="txtCancelar">Cancel </string>
+    <string name="txtSim">Yea </string>
+
+    <string name="toolbartxt">Product Registration</string>
+
 
 </resources>
